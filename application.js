@@ -36,8 +36,8 @@ DieView.prototype.render = function(){
   return this;
 }
 
-die = new Die({value: 1});
+var die = new Die({value: 1});
 
-dieView = new DieView(die);
+var dieView = new DieView(die);
 
 console.log(die, dieView);
